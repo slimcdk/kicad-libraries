@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Driver_Motor)(type KiCad)(uri ${KIPRJMOD}/../footprints/Driver_Motor.pretty)(options "")(descr ""))
+  (lib (name Interface_USB)(type KiCad)(uri ${KIPRJMOD}/../footprints/Interface_USB.pretty)(options "")(descr ""))
+  (lib (name .empty-kicad-project)(type KiCad)(uri /home/christian/Nextcloud/Projects/slimc-kicad-libraries/footprints/.empty-kicad-project.pretty)(options "")(descr ""))
+)
