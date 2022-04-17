@@ -1,0 +1,12 @@
+[submodule "external/gekkio-kicad-libs"]
+	path = external/gekkio-kicad-libs
+	url = git@github.com:Gekkio/gekkio-kicad-libs.git
+[submodule "external/digikey-partner-kicad-library"]
+	path = external/digikey-partner-kicad-library
+	url = git@github.com:Digi-Key/digikey-partner-kicad-library.git
+[submodule "external/digikey-kicad-library"]
+	path = external/digikey-kicad-library
+	url = git@github.com:Digi-Key/digikey-kicad-library.git
+[submodule "external/kicad-libraries"]
+	path = external/kicad-libraries
+	url = git@github.com:espressif/kicad-libraries.git
