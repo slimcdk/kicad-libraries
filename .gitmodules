@@ -8,5 +8,5 @@
 	path = external/digikey-kicad-library
 	url = git@github.com:Digi-Key/digikey-kicad-library.git
 [submodule "external/kicad-libraries"]
-	path = external/kicad-libraries
+	path = external/espressif-kicad-libraries
 	url = git@github.com:espressif/kicad-libraries.git
