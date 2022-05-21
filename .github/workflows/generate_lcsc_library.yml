@@ -1,0 +1,19 @@
+
+name: Geneate LCSC Library
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+
+
+jobs:
+
+  generate:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run generation file
+        run: |
+           chmod +x ./scripts/generate_lcsc_lib.sh
+           ./scripts/generate_lcsc_lib.sh
+        shell: bash
