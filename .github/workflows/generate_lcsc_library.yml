@@ -17,8 +17,8 @@ jobs:
         shell: bash
 
       - uses: suisei-cn/actions-download-file@v1
-        id: downloadfile
         name: Download component list
+        id: downloadfile
         with:
           url: https://jlcpcb.com/componentSearch/uploadComponentInfo
           target: /tmp
@@ -33,7 +33,8 @@ jobs:
 
       - name: Build library
         run: |
-          while IFS="," read -r partid partcat rec_column3
+          mkdir -p generated-lcsc/{symbols,footprints,3d-packages,.3d-packages}
+          while IFS="," read -r partid partcat unused
           do
               LIB=$(echo $partcat | sed -r 's/[/ -]+/_/g' | sed -r 's/__\+/_/g')
               easyeda2kicad --symbol --lcsc_id=$partid --output generated-lcsc/symbols/$LIB --overwrite
