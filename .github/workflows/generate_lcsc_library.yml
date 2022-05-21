@@ -12,18 +12,18 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
-      - name: Run generation file
+      - name: Install easyeda2kicad
         run: pip install easyeda2kicad
         shell: bash
 
       - uses: suisei-cn/actions-download-file@v1
         id: downloadfile
-        name: Download the file
+        name: Download component list
         with:
           url: https://jlcpcb.com/componentSearch/uploadComponentInfo
           target: /tmp
 
-      - name: Download a file
+      - name: Build library
         run: |
           while IFS="," read -r partid partcat rec_column3
           do
@@ -31,9 +31,9 @@ jobs:
               easyeda2kicad --symbol --lcsc_id=$partid --output generated-lcsc/symbols/$LIB --overwrite
               easyeda2kicad --footprint --lcsc_id=$partid --output generated-lcsc/footprints/$LIB --overwrite
               easyeda2kicad --3d --lcsc_id=$partid --output generated-lcsc/.3d-packages/$LIB --overwrite
-          done < <(tail -n +2 $PARTS_LIST)
+          done < <(tail -n +2 ${{ steps.downloadfile.outputs.filename }}")
 
-      - name: Download a file
+      - name: Clean library
         run: |
           find generated-lcsc/.3d-packages -mindepth 2 -type f -exec mv {} generated-lcsc/3d-packages \;
           rm -rf generated-lcsc/.3d-packages
