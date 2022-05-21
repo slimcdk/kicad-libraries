@@ -23,6 +23,10 @@ jobs:
           url: https://jlcpcb.com/componentSearch/uploadComponentInfo
           target: /tmp
 
+      - name: Components
+        run: wc -l < ${{ steps.downloadfile.outputs.filename }}
+        shell: bash
+
       - name: Build library
         run: |
           while IFS="," read -r partid partcat rec_column3
@@ -32,6 +36,7 @@ jobs:
               easyeda2kicad --footprint --lcsc_id=$partid --output generated-lcsc/footprints/$LIB --overwrite
               easyeda2kicad --3d --lcsc_id=$partid --output generated-lcsc/.3d-packages/$LIB --overwrite
           done < <(tail -n +2 ${{ steps.downloadfile.outputs.filename }}")
+        shell: bash
 
       - name: Clean library
         run: |
@@ -41,3 +46,4 @@ jobs:
           rm -rf generated-lcsc/footprints/*.kicad_sym
           rm -rf generated-lcsc/symbols/*.3dshapes
           rm -rf generated-lcsc/symbols/*.pretty
+        shell: bash
