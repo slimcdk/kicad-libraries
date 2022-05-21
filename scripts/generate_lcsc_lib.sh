@@ -32,7 +32,8 @@ trap cleanup EXIT
 while IFS="," read -r partid partcat rec_column3
 do
     LIB=$(echo $partcat | sed -r 's/[/ -]+/_/g' | sed -r 's/__\+/_/g')
-    easyeda2kicad --symbol --lcsc_id=$partid --output generated-lcsc/symbols/$LIB --overwrite
-    easyeda2kicad --footprint --lcsc_id=$partid --output generated-lcsc/footprints/$LIB --overwrite
-    easyeda2kicad --3d --lcsc_id=$partid --output generated-lcsc/.3d-packages/$LIB --overwrite
+    easyeda2kicad --symbol --lcsc_id=$partid --output generated-lcsc/symbols/$LIB --overwrite &
+    easyeda2kicad --footprint --lcsc_id=$partid --output generated-lcsc/footprints/$LIB --overwrite &
+    easyeda2kicad --3d --lcsc_id=$partid --output generated-lcsc/.3d-packages/$LIB --overwrite &
+    sleep 0.5
 done < <(tail -n +2 $PARTS_LIST)
