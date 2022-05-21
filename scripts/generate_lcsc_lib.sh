@@ -37,3 +37,8 @@ do
     easyeda2kicad --3d --lcsc_id=$partid --output generated-lcsc/.3d-packages/$LIB --overwrite &
     sleep 0.5
 done < <(tail -n +2 $PARTS_LIST)
+
+wait
+cleanup()
+
+exit 0
