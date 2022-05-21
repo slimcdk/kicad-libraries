@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP AS5601-ASOT
-D Magnetic Position Sensor, 12-bit, ABI Output, I2C Interface, SOIC-8
-K Magnetic Hall Encoder
-F https://ams.com/documents/20143/36005/AS5601_DS000395_3-00.pdf/9a58e74f-f6d8-53eb-1fa2-ad62d9911ca4
-$ENDCMP
-#
-#End Doc Library

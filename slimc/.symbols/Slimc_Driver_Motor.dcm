@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP TMC2209-LA
-D Driver for two-phase bipolar stepper motor, 2.8A, UART, 4.75-29V, QFN-28
-K stepper motor driver
-F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2209_Datasheet_V103.pdf
-$ENDCMP
-#
-#End Doc Library
