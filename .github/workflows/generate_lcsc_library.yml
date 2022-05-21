@@ -22,7 +22,6 @@ jobs:
         with:
           url: https://jlcpcb.com/componentSearch/uploadComponentInfo
           target: /tmp
-          auto-match: true
 
       - name: Download a file
         run: |
