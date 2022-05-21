@@ -8,13 +8,37 @@ on:
 
 
 jobs:
-
   generate:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
       - name: Run generation file
-        run: |
-           chmod +x ./scripts/generate_lcsc_lib.sh
-           ./scripts/generate_lcsc_lib.sh
+        run: pip install easyeda2kicad
         shell: bash
+
+      - uses: suisei-cn/actions-download-file@v1
+        id: downloadfile
+        name: Download the file
+        with:
+          url: https://jlcpcb.com/componentSearch/uploadComponentInfo
+          target: /tmp
+          auto-match: true
+
+      - name: Download a file
+        run: |
+          while IFS="," read -r partid partcat rec_column3
+          do
+              LIB=$(echo $partcat | sed -r 's/[/ -]+/_/g' | sed -r 's/__\+/_/g')
+              easyeda2kicad --symbol --lcsc_id=$partid --output generated-lcsc/symbols/$LIB --overwrite
+              easyeda2kicad --footprint --lcsc_id=$partid --output generated-lcsc/footprints/$LIB --overwrite
+              easyeda2kicad --3d --lcsc_id=$partid --output generated-lcsc/.3d-packages/$LIB --overwrite
+          done < <(tail -n +2 $PARTS_LIST)
+
+      - name: Download a file
+        run: |
+          find generated-lcsc/.3d-packages -mindepth 2 -type f -exec mv {} generated-lcsc/3d-packages \;
+          rm -rf generated-lcsc/.3d-packages
+          rm -rf generated-lcsc/footprints/*.3dshapes
+          rm -rf generated-lcsc/footprints/*.kicad_sym
+          rm -rf generated-lcsc/symbols/*.3dshapes
+          rm -rf generated-lcsc/symbols/*.pretty
