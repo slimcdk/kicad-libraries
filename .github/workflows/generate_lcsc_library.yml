@@ -2,6 +2,7 @@
 name: Geneate LCSC Library
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 0 1 * *'
 
