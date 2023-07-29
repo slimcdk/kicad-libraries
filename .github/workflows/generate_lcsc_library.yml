@@ -23,13 +23,13 @@ jobs:
           url: https://jlcpcb.com/componentSearch/uploadComponentInfo
           target: /tmp
 
-      - name: Components amount
-        run: wc -l < /tmp/${{ steps.downloadfile.outputs.filename }}
-        shell: bash
+      # - name: Components amount
+      #   run: wc -l < /tmp/${{ steps.downloadfile.outputs.filename }}
+      #   shell: bash
 
-      - name: Components head
-        run: head -n 20 /tmp/${{ steps.downloadfile.outputs.filename }}
-        shell: bash
+      # - name: Components head
+      #   run: head -n 20 /tmp/${{ steps.downloadfile.outputs.filename }}
+      #   shell: bash
 
       - name: Build library
         run: |
@@ -42,6 +42,7 @@ jobs:
               easyeda2kicad --3d --lcsc_id=$partid --output generated-lcsc/.3d-packages/$LIB --overwrite &
               sleep 0.5
           done < <(tail -n +2 /tmp/${{ steps.downloadfile.outputs.filename }})
+          wait
         shell: bash
 
       - name: Clean library
@@ -52,6 +53,7 @@ jobs:
           rm -rf generated-lcsc/footprints/*.kicad_sym
           rm -rf generated-lcsc/symbols/*.3dshapes
           rm -rf generated-lcsc/symbols/*.pretty
+          rm -f /tmp/${{ steps.downloadfile.outputs.filename }}
         shell: bash
 
       - name: Create Pull Request

@@ -1,0 +1,2311 @@
+(kicad_symbol_lib
+  (version 20211014)
+  (generator https://github.com/uPesy/easyeda2kicad.py
+  (symbol "HF-115F/012-2ZS4(551)"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "RLY?"
+      (id 0)
+      (at 0 12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "HF-115F/012-2ZS4(551)"
+      (id 1)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "RELAY-TH_HF115F-024-2ZS4"
+      (id 2)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Relays_HF-115F-012-2ZS4-551_C3630.html"
+      (id 3)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "HF"
+      (id 4)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C3630"
+      (id 5)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -25.40 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "HF-115F/012-2ZS4(551)_0_1"
+              (rectangle
+                (start -11.43 5.08)
+                (end 11.43 -5.08)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -6.35 -3.81)
+      (xy -6.35 -1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -6.35 1.27)
+      (xy -6.35 3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -8.889999999999999 1.27)
+      (xy -8.889999999999999 -1.27)
+      (xy -3.81 -1.27)
+      (xy -3.81 1.27)
+      (xy -8.889999999999999 1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 3.81 1.27)
+      (xy 3.81 3.81)
+      (xy 5.08 3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 8.889999999999999 1.27)
+      (xy 8.889999999999999 3.81)
+      (xy 7.62 3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 1.27)
+      (xy 6.35 2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 2.54)
+      (xy 4.318 4.572)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.81 -1.27)
+      (xy 3.81 -3.81)
+      (xy 5.08 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 8.889999999999999 -1.27)
+      (xy 8.889999999999999 -3.81)
+      (xy 7.62 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 -1.27)
+      (xy 6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 -2.54)
+      (xy 4.318 -4.572)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin input line
+        (at -6.35 -7.62 90)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -6.35 7.62 270)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 3.81 -7.62 90)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 3.81 7.62 270)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 6.35 -7.62 90)
+        (length 2.54)
+        (name "5" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 6.35 7.62 270)
+        (length 2.54)
+        (name "6" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 8.89 -7.62 90)
+        (length 2.54)
+        (name "7" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 8.89 7.62 270)
+        (length 2.54)
+        (name "8" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "HF33F/024-HS"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "Relay?"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "HF33F/024-HS"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "RELAY-TH_HF33F-024-HS"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Relays_HF33F-024-HS_C12248.html"
+      (id 3)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "HF"
+      (id 4)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C12248"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "HF33F/024-HS_0_1"
+              (rectangle
+                (start -8.89 7.62)
+                (end 8.89 -7.62)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 -2.54)
+      (xy 1.27 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -2.54)
+      (xy -6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -5.08)
+      (xy 1.27 -5.08)
+      (xy 1.27 -0.0)
+      (xy -1.27 -0.0)
+      (xy -1.27 -5.08)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 2.54)
+      (xy 1.27 2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -6.35 2.54)
+      (xy -1.27 2.54)
+      (xy 1.524 3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin input line
+        (at -11.43 -2.54 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 11.43 -2.54 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 11.43 2.54 180)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -11.43 2.54 0)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "C13828"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "SW?"
+      (id 0)
+      (at 0 10.16 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "C13828"
+      (id 1)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5"
+      (id 2)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Electrical-Switches_Made-in-China-button-6-6-8-5_C13828.html"
+      (id 3)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "Dongguan Guangzhu Industrial"
+      (id 4)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C13828"
+      (id 5)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "C13828_0_1"
+              (polyline
+                (pts
+                      (xy 0.254 2.032)
+      (xy 1.778 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 0.0 5.08)
+      (xy 0.0 2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 0.0 -5.08)
+      (xy 0.0 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -5.08 5.08)
+      (xy 5.08 5.08)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -5.08 -5.08)
+      (xy 5.08 -5.08)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at 7.62 5.08 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 5.08 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 -5.08 180)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 -5.08 0)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "HF115F/024-1HS3"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "K?"
+      (id 0)
+      (at 0 12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "HF115F/024-1HS3"
+      (id 1)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "RELAY-TH_HF115F-XXX-1HS3"
+      (id 2)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Relays_DC24VRelay_C24645.html"
+      (id 3)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "HF"
+      (id 4)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C24645"
+      (id 5)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -25.40 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "HF115F/024-1HS3_0_1"
+              (rectangle
+                (start -12.70 5.08)
+                (end 10.16 -5.08)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -7.62 4.064)
+      (xy -7.62 1.524)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -7.62 -1.016)
+      (xy -7.62 -3.556)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -10.16 -1.016)
+      (xy -10.16 1.524)
+      (xy -5.08 1.524)
+      (xy -5.08 -1.016)
+      (xy -10.16 -1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 5.08 2.54)
+      (xy 5.08 -1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 7.62 2.54)
+      (xy 7.62 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 7.62 -2.54)
+      (xy 6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 5.08 -1.27)
+      (xy 5.08 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 5.08 -2.54)
+      (xy 6.35 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin input line
+        (at -7.62 7.62 270)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -7.62 -7.62 90)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 5.08 7.62 270)
+        (length 2.54)
+        (name "5" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 5.08 -7.62 90)
+        (length 2.54)
+        (name "6" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 7.62 7.62 270)
+        (length 2.54)
+        (name "7" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 7.62 -7.62 90)
+        (length 2.54)
+        (name "8" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Switch3x4x2"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "KEY?"
+      (id 0)
+      (at 0 3.81 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "Switch3x4x2"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "SW-SMD_L4.0-W2.9-LS5.0"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Tactile-Switches_3x4x2-Column-height0-5_C26638.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C26638"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "Switch3x4x2_0_1"
+              (polyline
+                (pts
+                      (xy -5.08 -1.27)
+      (xy -4.064 -1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 5.08 -1.27)
+      (xy 4.064 -1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -3.81 0.762)
+      (xy -3.81 0.508)
+      (xy 3.81 0.508)
+      (xy 3.81 0.762)
+      (xy 1.016 0.762)
+      (xy 1.016 1.524)
+      (xy -1.016 1.524)
+      (xy -1.016 0.762)
+      (xy -3.81 0.762)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+      (pin input line
+        (at -7.62 -1.27 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 7.62 -1.27 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "JQC-3FF/24VDC-1ZS(551)"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "K?"
+      (id 0)
+      (at 0 12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "JQC-3FF/24VDC-1ZS(551)"
+      (id 1)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "RELAY-TH_HF_JQC-3FF"
+      (id 2)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Relays_Xiamen-Hongfa-Electroacoustic-JQC-3FF-024-1ZS-551_C55126.html"
+      (id 3)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "Xiamen Hongfa Electroacoustic"
+      (id 4)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C55126"
+      (id 5)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -25.40 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "JQC-3FF/24VDC-1ZS(551)_0_1"
+              (rectangle
+                (start -12.70 5.08)
+                (end 10.16 -5.08)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -7.62 3.81)
+      (xy -7.62 1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -7.62 -1.27)
+      (xy -7.62 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -10.16 -1.27)
+      (xy -10.16 1.27)
+      (xy -5.08 1.27)
+      (xy -5.08 -1.27)
+      (xy -10.16 -1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 0.0 -3.81)
+      (xy 0.0 -0.762)
+      (xy 2.54 -0.762)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 5.08 3.81)
+      (xy 5.08 0.762)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 7.62 -3.81)
+      (xy 7.62 -0.762)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 2.54 -0.762)
+      (xy 5.588 1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin input line
+        (at -7.62 7.62 270)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -7.62 -7.62 90)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 7.62 -7.62 90)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 0.00 -7.62 90)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 5.08 7.62 270)
+        (length 2.54)
+        (name "5" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "UD2-4.5NU"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "K?"
+      (id 0)
+      (at 0 10.16 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "UD2-4.5NU"
+      (id 1)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "RELAY-SMD_UD2-4.5NU"
+      (id 2)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "NEC(日电电子)"
+      (id 4)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C56898"
+      (id 5)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -25.40 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "UD2-4.5NU_0_1"
+              (rectangle
+                (start -10.92 -0.00)
+                (end -9.40 -5.08)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (rectangle
+                (start -12.70 2.54)
+                (end 10.16 -7.62)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 0.0 -7.62)
+      (xy 0.0 -5.842)
+      (xy -1.27 -3.556)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 0.0 2.54)
+      (xy 0.0 0.762)
+      (xy -1.27 -1.524)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -5.08 -7.62)
+      (xy -5.08 -4.572)
+      (xy -1.27 -4.572)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 5.08 2.54)
+      (xy 5.08 -0.508)
+      (xy 1.27 -0.508)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 5.08 -7.62)
+      (xy 5.08 -4.572)
+      (xy 1.27 -4.572)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -5.08 2.54)
+      (xy -5.08 -0.508)
+      (xy -1.27 -0.508)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -10.16 -5.08)
+      (xy -10.16 -7.62)
+      (xy -10.16 -7.62)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -10.16 -0.0)
+      (xy -10.16 2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -10.16 5.08 270)
+        (length 2.54)
+        (name "8" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -5.08 5.08 270)
+        (length 2.54)
+        (name "7" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 0.00 5.08 270)
+        (length 2.54)
+        (name "6" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 5.08 5.08 270)
+        (length 2.54)
+        (name "5" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 5.08 -10.16 90)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 0.00 -10.16 90)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -5.08 -10.16 90)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -10.16 -10.16 90)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "JQX-115F/012-2ZS4(551)"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "Relay?"
+      (id 0)
+      (at 0 12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "JQX-115F/012-2ZS4(551)"
+      (id 1)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "RELAY-TH_JQX-115F-012-2ZS4"
+      (id 2)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Relays_JQX-115F-012-2ZS4-551_C64058.html"
+      (id 3)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "HF"
+      (id 4)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C64058"
+      (id 5)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -25.40 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "JQX-115F/012-2ZS4(551)_0_1"
+              (rectangle
+                (start -11.43 5.08)
+                (end 11.43 -5.08)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -6.35 -3.81)
+      (xy -6.35 -1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -6.35 1.27)
+      (xy -6.35 3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -8.889999999999999 1.27)
+      (xy -8.889999999999999 -1.27)
+      (xy -3.81 -1.27)
+      (xy -3.81 1.27)
+      (xy -8.889999999999999 1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 3.81 1.27)
+      (xy 3.81 3.81)
+      (xy 5.08 3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 8.889999999999999 1.27)
+      (xy 8.889999999999999 3.81)
+      (xy 7.62 3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 1.27)
+      (xy 6.35 2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 2.54)
+      (xy 4.318 4.572)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.81 -1.27)
+      (xy 3.81 -3.81)
+      (xy 5.08 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 8.889999999999999 -1.27)
+      (xy 8.889999999999999 -3.81)
+      (xy 7.62 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 -1.27)
+      (xy 6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 -2.54)
+      (xy 4.318 -4.572)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin input line
+        (at -6.35 -7.62 90)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -6.35 7.62 270)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 3.81 -7.62 90)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 3.81 7.62 270)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 6.35 -7.62 90)
+        (length 2.54)
+        (name "5" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 6.35 7.62 270)
+        (length 2.54)
+        (name "6" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 8.89 -7.62 90)
+        (length 2.54)
+        (name "7" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 8.89 7.62 270)
+        (length 2.54)
+        (name "8" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "JRC-27F/005-S(555)"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "Relay?"
+      (id 0)
+      (at 0 13.97 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "JRC-27F/005-S(555)"
+      (id 1)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "RELAY-TH_HFD27XXX"
+      (id 2)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Relays_JRC-27F-005-S-555_C64060.html"
+      (id 3)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "HF"
+      (id 4)
+      (at 0 -21.59 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C64060"
+      (id 5)
+      (at 0 -24.13 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -26.67 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "JRC-27F/005-S(555)_0_1"
+              (rectangle
+                (start -10.16 6.35)
+                (end 10.41 -6.35)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -2.54 5.08)
+      (xy -2.54 1.27)
+      (xy 3.302 3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 2.54 5.08)
+      (xy 2.54 3.048)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 2.54 1.27)
+      (xy 2.54 2.286)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 2.54 1.27)
+      (xy 7.62 1.27)
+      (xy 7.62 5.08)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.54 -5.08)
+      (xy -2.54 -1.27)
+      (xy 3.302 -3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 2.54 -5.08)
+      (xy 2.54 -3.048)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 2.54 -1.27)
+      (xy 2.54 -2.286)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 2.54 -1.27)
+      (xy 7.62 -1.27)
+      (xy 7.62 -5.08)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -7.62 5.08)
+      (xy -7.62 0.762)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -7.62 -0.762)
+      (xy -7.62 -5.08)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -9.398 0.762)
+      (xy -9.398 -0.762)
+      (xy -5.842 -0.762)
+      (xy -5.842 0.762)
+      (xy -9.398 0.762)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+      (pin input line
+        (at -7.62 -8.89 90)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 7.62 -8.89 90)
+        (length 2.54)
+        (name "8" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -2.54 -8.89 90)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 7.62 8.89 270)
+        (length 2.54)
+        (name "9" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 2.54 -8.89 90)
+        (length 2.54)
+        (name "6" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 2.54 8.89 270)
+        (length 2.54)
+        (name "11" (effects (font (size 1.27 1.27))))
+        (number "11" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -2.54 8.89 270)
+        (length 2.54)
+        (name "13" (effects (font (size 1.27 1.27))))
+        (number "13" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -7.62 8.89 270)
+        (length 2.54)
+        (name "16" (effects (font (size 1.27 1.27))))
+        (number "16" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "HF14FW/024-HS"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "K?"
+      (id 0)
+      (at 0 12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "HF14FW/024-HS"
+      (id 1)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "RELAY-TH_HF14FW-XH-XXX"
+      (id 2)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Relays_HF14FW-024-HS_C66681.html"
+      (id 3)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "HF"
+      (id 4)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C66681"
+      (id 5)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -25.40 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "HF14FW/024-HS_0_1"
+              (rectangle
+                (start -10.16 5.08)
+                (end 7.62 -5.08)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 2.54 -2.54)
+      (xy 2.54 -1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 2.54 1.27)
+      (xy 2.54 2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 5.08 1.27)
+      (xy 5.08 -1.27)
+      (xy 0.0 -1.27)
+      (xy 0.0 1.27)
+      (xy 5.08 1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -7.62 -2.54)
+      (xy -7.62 -3.81)
+      (xy -6.35 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -5.08 -2.54)
+      (xy -5.842 -4.318)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -5.08 -2.54)
+      (xy -5.08 2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -7.62 -2.54)
+      (xy -7.62 2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin input line
+        (at 2.54 -7.62 90)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 2.54 7.62 270)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -5.08 -7.62 90)
+        (length 2.54)
+        (name "5" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -5.08 7.62 270)
+        (length 2.54)
+        (name "6" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -7.62 -7.62 90)
+        (length 2.54)
+        (name "7" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -7.62 7.62 270)
+        (length 2.54)
+        (name "8" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "JQX-115F/005-1ZS3"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "RLY?"
+      (id 0)
+      (at 0 12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "JQX-115F/005-1ZS3"
+      (id 1)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "RELAY-TH_JQX-115F-005-2ZS4"
+      (id 2)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Relays_JQX-115F-005-1ZS3_C67589.html"
+      (id 3)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "HF"
+      (id 4)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C67589"
+      (id 5)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -25.40 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "JQX-115F/005-1ZS3_0_1"
+              (rectangle
+                (start -11.43 5.08)
+                (end 11.43 -5.08)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -6.35 -3.81)
+      (xy -6.35 -1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -6.35 1.27)
+      (xy -6.35 3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -8.889999999999999 1.27)
+      (xy -8.889999999999999 -1.27)
+      (xy -3.81 -1.27)
+      (xy -3.81 1.27)
+      (xy -8.889999999999999 1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 -0.0)
+      (xy 4.572 0.762)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.81 -5.08)
+      (xy 3.81 5.08)
+      (xy 3.81 5.08)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 5.08)
+      (xy 6.35 -5.08)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 8.889999999999999 -5.08)
+      (xy 8.889999999999999 5.08)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin input line
+        (at -6.35 -7.62 90)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -6.35 7.62 270)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 3.81 -7.62 90)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 3.81 7.62 270)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 6.35 -7.62 90)
+        (length 2.54)
+        (name "5" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 6.35 7.62 270)
+        (length 2.54)
+        (name "6" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 8.89 -7.62 90)
+        (length 2.54)
+        (name "7" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 8.89 7.62 270)
+        (length 2.54)
+        (name "8" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "HF3FF/012-1HST"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "RLY?"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "HF3FF/012-1HST"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "RELAY-TH_HF3FF-012-1HS"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Relays_HF3FF-012-1HST_C72465.html"
+      (id 3)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "HF"
+      (id 4)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C72465"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "HF3FF/012-1HST_0_1"
+              (rectangle
+                (start -8.89 7.62)
+                (end 8.89 -7.62)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 -2.54)
+      (xy 1.27 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -2.54)
+      (xy -6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -5.08)
+      (xy 1.27 -5.08)
+      (xy 1.27 -0.0)
+      (xy -1.27 -0.0)
+      (xy -1.27 -5.08)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 2.54)
+      (xy 1.27 2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -6.35 2.54)
+      (xy -1.27 2.54)
+      (xy 1.524 3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin input line
+        (at -11.43 -2.54 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 11.43 -2.54 180)
+        (length 2.54)
+        (name "5" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 11.43 2.54 180)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -11.43 2.54 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "EVQ21305R"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "SW?"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "EVQ21305R"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "KEY-TH_L6.0-W6.0-P5.00-LS5.5"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Tactile-Switches_PANASONIC_EVQ21305R_Switch-6-6-5-1N-0-25mm-red-Feet-straight_C79155.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "PANASONIC"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C79155"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "EVQ21305R_0_1"
+              (polyline
+                (pts
+                      (xy -3.048 -0.0)
+      (xy 3.302 2.794)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin input line
+        (at -6.35 -0.00 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 6.35 -0.00 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "AGN20024"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "K?"
+      (id 0)
+      (at 0 12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "AGN20024"
+      (id 1)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "RELAY-TH_AGN2X0XXX"
+      (id 2)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Relays_PANASONIC-AGN20024_C89053.html"
+      (id 3)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "PANASONIC"
+      (id 4)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C89053"
+      (id 5)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -25.40 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "AGN20024_0_1"
+              (rectangle
+                (start -8.89 -0.00)
+                (end -6.35 -1.27)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (rectangle
+                (start -12.70 3.81)
+                (end 12.70 -5.08)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -7.62 5.08)
+      (xy -7.62 -0.0)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -7.62 -1.27)
+      (xy -7.62 -5.08)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -5.08 -5.08)
+      (xy -5.08 -2.54)
+      (xy 1.27 -2.54)
+      (xy 0.0 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -2.54)
+      (xy 0.0 -3.048)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.27)
+      (xy 2.54 -3.81)
+      (xy 2.54 -5.08)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -5.08 5.08)
+      (xy -5.08 1.27)
+      (xy 1.27 1.27)
+      (xy 0.0 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -0.0)
+      (xy 2.54 2.54)
+      (xy 2.54 5.08)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 10.16 5.08)
+      (xy 10.16 1.27)
+      (xy 3.81 1.27)
+      (xy 5.08 0.762)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.81 1.27)
+      (xy 5.08 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 10.16 -5.08)
+      (xy 10.16 -2.54)
+      (xy 3.81 -2.54)
+      (xy 5.08 -3.048)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.81 -2.54)
+      (xy 5.08 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -7.112 -3.048)
+      (xy -6.096 -3.048)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -6.604 -3.556)
+      (xy -6.604 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -7.112 1.778)
+      (xy -6.096 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -11.937999999999999 1.778)
+      (xy -10.921999999999999 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -11.684 2.54)
+      (xy -11.176 2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -11.937999999999999 1.016)
+      (xy -10.921999999999999 1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -11.937999999999999 0.254)
+      (xy -10.921999999999999 0.254)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -11.937999999999999 -0.254)
+      (xy -10.921999999999999 -0.254)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -11.937999999999999 -0.762)
+      (xy -10.921999999999999 -0.762)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -11.937999999999999 -1.524)
+      (xy -10.921999999999999 -1.524)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -11.937999999999999 -2.286)
+      (xy -10.921999999999999 -2.286)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -11.937999999999999 -2.794)
+      (xy -10.921999999999999 -2.794)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -11.684 -3.556)
+      (xy -11.176 -3.556)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.27)
+      (xy 0.0 0.762)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -7.62 -7.62 90)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -5.08 -7.62 90)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 2.54 -7.62 90)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 10.16 -7.62 90)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 10.16 7.62 270)
+        (length 2.54)
+        (name "5" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 2.54 7.62 270)
+        (length 2.54)
+        (name "6" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -5.08 7.62 270)
+        (length 2.54)
+        (name "7" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 7.62 270)
+        (length 2.54)
+        (name "8" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)

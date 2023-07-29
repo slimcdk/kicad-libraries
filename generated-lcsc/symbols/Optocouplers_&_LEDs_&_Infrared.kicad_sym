@@ -1,0 +1,5437 @@
+(kicad_symbol_lib
+  (version 20211014)
+  (generator https://github.com/uPesy/easyeda2kicad.py
+  (symbol "KT-0603R"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "KT-0603R"
+      (id 1)
+      (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "LED0603-R-RD"
+      (id 2)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-0603_C2286.html"
+      (id 3)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2286"
+      (id 5)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Basic Part"
+      (id 6)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "KT-0603R_0_1"
+              (polyline
+                (pts
+                      (xy -3.81 -2.032)
+      (xy -2.794 -1.524)
+      (xy -3.302 -1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.794 -3.048)
+      (xy -1.778 -2.54)
+      (xy -2.286 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 2.794)
+      (xy -1.27 1.27)
+      (xy 1.27 -0.508)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.032 -0.254)
+      (xy -3.81 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.016 -1.27)
+      (xy -2.794 -3.048)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -0.762)
+      (xy -1.27 3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 3.81 1.27 180)
+        (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "0603YYellowlight90-110"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED?"
+      (id 0)
+      (at 0 3.81 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "0603YYellowlight90-110"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "LED0603-R-RD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Yellow-light-0603_C2287.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2287"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "0603YYellowlight90-110_0_1"
+              (polyline
+                (pts
+                      (xy 3.81 2.032)
+      (xy 2.794 1.524)
+      (xy 3.302 1.016)
+      (xy 3.81 2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 2.794 3.048)
+      (xy 1.778 2.54)
+      (xy 2.286 2.032)
+      (xy 2.794 3.048)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -2.794)
+      (xy 1.27 -1.27)
+      (xy -1.27 0.508)
+      (xy -1.27 -2.794)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 2.032 0.254)
+      (xy 3.81 2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.016 1.27)
+      (xy 2.794 3.048)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 0.762)
+      (xy 1.27 -3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at 3.81 -1.27 180)
+        (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Bluelight0603"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED?"
+      (id 0)
+      (at 0 3.81 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "Bluelight0603"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "LED0603-R-RD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Blue-light-0603_C2288.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2288"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "Bluelight0603_0_1"
+              (polyline
+                (pts
+                      (xy 3.81 2.032)
+      (xy 2.794 1.524)
+      (xy 3.302 1.016)
+      (xy 3.81 2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 2.794 3.048)
+      (xy 1.778 2.54)
+      (xy 2.286 2.032)
+      (xy 2.794 3.048)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -2.794)
+      (xy 1.27 -1.27)
+      (xy -1.27 0.508)
+      (xy -1.27 -2.794)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 2.032 0.254)
+      (xy 3.81 2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.016 1.27)
+      (xy 2.794 3.048)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 0.762)
+      (xy 1.27 -3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at 3.81 -1.27 180)
+        (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "XL-0603QYGC"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED?"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "XL-0603QYGC"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "LED0603-R-RD"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Yellow-green-0603_C2289.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2289"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "XL-0603QYGC_0_1"
+              (polyline
+                (pts
+                      (xy 3.81 3.302)
+      (xy 2.794 2.794)
+      (xy 3.302 2.286)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 2.794 4.318)
+      (xy 1.778 3.81)
+      (xy 2.286 3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.524)
+      (xy 1.27 -0.0)
+      (xy -1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 2.032 1.524)
+      (xy 3.81 3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.016 2.54)
+      (xy 2.794 4.318)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 2.032)
+      (xy 1.27 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at 3.81 -0.00 180)
+        (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -0.00 0)
+        (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "0603Whitelight_C2290"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED?"
+      (id 0)
+      (at 0 3.81 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "0603Whitelight_C2290"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "LED0603-R-RD_WHITE"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2290"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Basic Part"
+      (id 6)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "0603Whitelight_C2290_0_1"
+              (polyline
+                (pts
+                      (xy 3.81 2.032)
+      (xy 2.794 1.524)
+      (xy 3.302 1.016)
+      (xy 3.81 2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 2.794 3.048)
+      (xy 1.778 2.54)
+      (xy 2.286 2.032)
+      (xy 2.794 3.048)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -2.794)
+      (xy 1.27 -1.27)
+      (xy -1.27 0.508)
+      (xy -1.27 -2.794)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 2.032 0.254)
+      (xy 3.81 2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.016 1.27)
+      (xy 2.794 3.048)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 0.762)
+      (xy 1.27 -3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at 3.81 -1.27 180)
+        (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Yellowgreen0805"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED?"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "Yellowgreen0805"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "LED0805-R-RD"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Yellow-green-0805_C2292.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2292"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "Yellowgreen0805_0_1"
+              (polyline
+                (pts
+                      (xy 3.81 3.302)
+      (xy 2.794 2.794)
+      (xy 3.302 2.286)
+      (xy 3.81 3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 2.794 4.318)
+      (xy 1.778 3.81)
+      (xy 2.286 3.302)
+      (xy 2.794 4.318)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.524)
+      (xy 1.27 -0.0)
+      (xy -1.27 1.778)
+      (xy -1.27 -1.524)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 2.032 1.524)
+      (xy 3.81 3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.016 2.54)
+      (xy 2.794 4.318)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 2.032)
+      (xy 1.27 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at 3.81 -0.00 180)
+        (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -0.00 0)
+        (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "XL-0805QBC"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED?"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "XL-0805QBC"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "LED0805-RD"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Blue-light_C2293.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2293"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Basic Part"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "XL-0805QBC_0_1"
+              (polyline
+                (pts
+                      (xy -3.81 3.302)
+      (xy -2.794 2.794)
+      (xy -3.302 2.286)
+      (xy -3.81 3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -2.794 4.318)
+      (xy -1.778 3.81)
+      (xy -2.286 3.302)
+      (xy -2.794 4.318)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.524)
+      (xy -1.27 -0.0)
+      (xy 1.27 1.778)
+      (xy 1.27 -1.524)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -2.032 1.524)
+      (xy -3.81 3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.016 2.54)
+      (xy -2.794 4.318)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 2.032)
+      (xy -1.27 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 -0.00 0)
+        (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 3.81 -0.00 180)
+        (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "17-21SUYC/TR8"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED?"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "17-21SUYC/TR8"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "LED0805-RD"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Yellow-light-0805-Highlighted_C2296.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2296"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Basic Part"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "17-21SUYC/TR8_0_1"
+              (polyline
+                (pts
+                      (xy -3.81 3.302)
+      (xy -2.794 2.794)
+      (xy -3.302 2.286)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.794 4.318)
+      (xy -1.778 3.81)
+      (xy -2.286 3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.524)
+      (xy -1.27 -0.0)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.032 1.524)
+      (xy -3.81 3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.016 2.54)
+      (xy -2.794 4.318)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 2.032)
+      (xy -1.27 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 -0.00 0)
+        (length 2.54)
+        (name "-" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 3.81 -0.00 180)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "15-21SYGCITR8"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED?"
+      (id 0)
+      (at 0 4.06 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "15-21SYGCITR8"
+      (id 1)
+      (at 0 -6.10 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "LED1206-R-RD"
+      (id 2)
+      (at 0 -8.64 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_yellow-1206_C2298.html"
+      (id 3)
+      (at 0 -11.18 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -13.72 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2298"
+      (id 5)
+      (at 0 -16.26 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -18.80 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "15-21SYGCITR8_0_1"
+              (polyline
+                (pts
+                      (xy -3.81 2.286)
+      (xy -2.794 1.778)
+      (xy -3.302 1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.794 3.302)
+      (xy -1.778 2.794)
+      (xy -2.286 2.286)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -2.54)
+      (xy -1.27 -1.016)
+      (xy 1.27 0.762)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.032 0.508)
+      (xy -3.81 2.286)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.016 1.524)
+      (xy -2.794 3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.016)
+      (xy -1.27 -3.048)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 -1.02 0)
+        (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 3.81 -1.02 180)
+        (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "3528Yellowgreen"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED?"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "3528Yellowgreen"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "LED-SMD_L3.2-W2.8-LS3.5-RD_GREEN"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Green-3528_C2304.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2304"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "3528Yellowgreen_0_1"
+              (polyline
+                (pts
+                      (xy -0.508 2.032)
+      (xy -2.286 3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 0.508 3.048)
+      (xy -1.27 4.826)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.524)
+      (xy -1.27 -1.524)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.524)
+      (xy -1.27 -0.0)
+      (xy 1.27 1.524)
+      (xy 1.27 -1.524)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -2.286 3.81)
+      (xy -1.27 3.302)
+      (xy -1.778 2.794)
+      (xy -2.286 3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 4.826)
+      (xy -0.254 4.318)
+      (xy -0.762 3.81)
+      (xy -1.27 4.826)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+      (pin input line
+        (at -3.81 -0.00 0)
+        (length 2.54)
+        (name "-" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 3.81 -0.00 180)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "3528RedLED"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED?"
+      (id 0)
+      (at 0 3.81 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "3528RedLED"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "LED-SMD_L3.2-W2.8-RD_TJ-S3528UG6W9TLC9Y-A5"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-3528_C2305.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2305"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "3528RedLED_0_1"
+              (polyline
+                (pts
+                      (xy 3.81 2.032)
+      (xy 2.794 1.524)
+      (xy 3.302 1.016)
+      (xy 3.81 2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 2.794 3.048)
+      (xy 1.778 2.54)
+      (xy 2.286 2.032)
+      (xy 2.794 3.048)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -2.794)
+      (xy 1.27 -1.27)
+      (xy -1.27 0.508)
+      (xy -1.27 -2.794)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 2.032 0.254)
+      (xy 3.81 2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.016 1.27)
+      (xy 2.794 3.048)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 0.762)
+      (xy 1.27 -3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at 3.81 -1.27 180)
+        (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "HL538A"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U?"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "HL538A"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "IR-LED-TH_3P-L10.0-W5.8-P2.54-L"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "台湾HL"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C5124"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "HL538A_0_1"
+      (rectangle
+        (start -5.08 5.08)
+        (end 5.08 -5.08)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (pin unspecified line
+        (at -7.62 2.54 0)
+        (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 -0.00 0)
+        (length 2.54)
+        (name "VCC" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 -2.54 0)
+        (length 2.54)
+        (name "VOUT" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "PC817X2NIP0F"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U?"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "PC817X2NIP0F"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "SMD-4_L4.6-W6.5-P2.54-LS10.2-TL"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/SMD-Optocouplers_PC817B_C7437.html"
+      (id 3)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "SHARP"
+      (id 4)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C7437"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "PC817X2NIP0F_0_1"
+              (rectangle
+                (start -6.35 4.32)
+                (end 6.35 -4.32)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 0.762 -2.032)
+      (xy 0.254 -1.016)
+      (xy -0.254 -1.524)
+      (xy 0.762 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 1.524 -1.016)
+      (xy 1.016 -0.0)
+      (xy 0.508 -0.508)
+      (xy 1.524 -1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -4.572 1.27)
+      (xy -3.048 -1.27)
+      (xy -1.27 1.27)
+      (xy -4.572 1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 2.54)
+      (xy 3.81 0.762)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.81 -0.762)
+      (xy 6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.81 2.286)
+      (xy 3.81 -2.286)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.016 -0.254)
+      (xy 0.762 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -0.254 0.762)
+      (xy 1.524 -1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.016 -1.27)
+      (xy -5.08 -1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -6.35 2.54)
+      (xy -3.048 2.54)
+      (xy -3.048 -2.54)
+      (xy -6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 -2.54)
+      (xy 5.588 -1.27)
+      (xy 4.826 -2.286)
+      (xy 6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+      (pin unspecified line
+        (at -8.89 2.54 0)
+        (length 2.54)
+        (name "AN" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -8.89 -2.54 0)
+        (length 2.54)
+        (name "CAT" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 8.89 -2.54 180)
+        (length 2.54)
+        (name "EM" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 8.89 2.54 180)
+        (length 2.54)
+        (name "COL" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "XL-1206QPC"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED?"
+      (id 0)
+      (at 0 3.81 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "XL-1206QPC"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "LED1206-RD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Made-in-China-XL-1206QPC_C10781.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "LCSC"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C10781"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "XL-1206QPC_0_1"
+              (polyline
+                (pts
+                      (xy -0.762 2.794)
+      (xy -0.254 1.778)
+      (xy 0.254 2.286)
+      (xy -0.762 2.794)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -1.778 1.778)
+      (xy -1.27 0.762)
+      (xy -0.762 1.27)
+      (xy -1.778 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 0.254)
+      (xy -1.27 -1.27)
+      (xy 1.27 -3.048)
+      (xy 1.27 0.254)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 1.016 1.016)
+      (xy -0.762 2.794)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 0.0 -0.0)
+      (xy -1.778 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -3.302)
+      (xy -1.27 0.762)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 3.81 -1.27 180)
+        (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "0603Green509-620mcd"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED?"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "0603Green509-620mcd"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "LED0603-R-RD"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603-Green_C12624.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C12624"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "0603Green509-620mcd_0_1"
+              (polyline
+                (pts
+                      (xy 1.27 -1.524)
+      (xy -1.27 -0.0)
+      (xy 1.27 1.778)
+      (xy 1.27 -1.524)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -2.794 4.318)
+      (xy -1.778 3.81)
+      (xy -2.286 3.302)
+      (xy -2.794 4.318)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -3.81 3.302)
+      (xy -2.794 2.794)
+      (xy -3.302 2.286)
+      (xy -3.81 3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 2.032)
+      (xy -1.27 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.016 2.54)
+      (xy -2.794 4.318)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.032 1.524)
+      (xy -3.81 3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at 3.81 -0.00 180)
+        (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -0.00 0)
+        (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "EL817S(C)(TU)-F"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U?"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "EL817S(C)(TU)-F"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "OPTO-SMD-4_L4.6-W6.5-P2.54-LS10.3-TL"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/SMD-Optocouplers_EL817S-C-TU-F_C14210.html"
+      (id 3)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "EVERLIGHT"
+      (id 4)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C14210"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "EL817S(C)(TU)-F_0_1"
+              (rectangle
+                (start -6.35 4.32)
+                (end 6.35 -4.32)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 0.762 -2.032)
+      (xy 0.254 -1.016)
+      (xy -0.254 -1.524)
+      (xy 0.762 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 1.524 -1.016)
+      (xy 1.016 -0.0)
+      (xy 0.508 -0.508)
+      (xy 1.524 -1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -4.572 1.27)
+      (xy -3.048 -1.27)
+      (xy -1.27 1.27)
+      (xy -4.572 1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 2.54)
+      (xy 3.81 0.762)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.81 -0.762)
+      (xy 6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.81 2.286)
+      (xy 3.81 -2.286)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.016 -0.254)
+      (xy 0.762 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -0.254 0.762)
+      (xy 1.524 -1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.016 -1.27)
+      (xy -5.08 -1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -6.35 2.54)
+      (xy -3.048 2.54)
+      (xy -3.048 -2.54)
+      (xy -6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 -2.54)
+      (xy 5.588 -1.27)
+      (xy 4.826 -2.286)
+      (xy 6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+      (pin unspecified line
+        (at -8.89 2.54 0)
+        (length 2.54)
+        (name "AN" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -8.89 -2.54 0)
+        (length 2.54)
+        (name "CAT" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 8.89 -2.54 180)
+        (length 2.54)
+        (name "EM" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 8.89 2.54 180)
+        (length 2.54)
+        (name "COL" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "ledGreen"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED?"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "ledGreen"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "LED1206-RD"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_led-Green_C14641.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C14641"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "ledGreen_0_1"
+              (polyline
+                (pts
+                      (xy -2.286 3.81)
+      (xy -1.27 3.302)
+      (xy -1.778 2.794)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 4.826)
+      (xy -0.254 4.318)
+      (xy -0.762 3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.524 -2.032)
+      (xy -1.524 -0.0)
+      (xy 1.524 2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -0.508 2.032)
+      (xy -2.286 3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 0.508 3.048)
+      (xy -1.27 4.826)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.524 2.032)
+      (xy -1.524 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -4.06 -0.00 0)
+        (length 2.54)
+        (name "-" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 4.06 -0.00 180)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "E6C1206YG"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED?"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "E6C1206YG"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "LED1206-R-RD"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_1206-yellow-green_C15595.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C15595"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "E6C1206YG_0_1"
+              (polyline
+                (pts
+                      (xy -3.81 3.302)
+      (xy -2.794 2.794)
+      (xy -3.302 2.286)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.794 4.318)
+      (xy -1.778 3.81)
+      (xy -2.286 3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.524)
+      (xy -1.27 -0.0)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.032 1.524)
+      (xy -3.81 3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.016 2.54)
+      (xy -2.794 4.318)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 2.032)
+      (xy -1.27 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 -0.00 0)
+        (length 2.54)
+        (name "-" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 3.81 -0.00 180)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "KT-0603RG"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED?"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "KT-0603RG"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "LED-SMD_4P-L1.6-W1.5-BR"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-yellow-and-greenLED_C24477.html"
+      (id 3)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C24477"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "KT-0603RG_0_1"
+              (polyline
+                (pts
+                      (xy -0.508 -4.572)
+      (xy -2.286 -6.35)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 0.508 -5.588)
+      (xy -1.27 -7.366)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -4.064)
+      (xy -1.27 -1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -0.508 4.572)
+      (xy -2.286 6.35)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 0.508 5.588)
+      (xy -1.27 7.366)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 4.064)
+      (xy -1.27 1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.016)
+      (xy -1.27 -2.54)
+      (xy 1.27 -4.064)
+      (xy 1.27 -1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -2.286 -6.35)
+      (xy -1.27 -5.842)
+      (xy -1.778 -5.334)
+      (xy -2.286 -6.35)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -7.366)
+      (xy -0.254 -6.858)
+      (xy -0.762 -6.35)
+      (xy -1.27 -7.366)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.016)
+      (xy -1.27 2.54)
+      (xy 1.27 4.064)
+      (xy 1.27 1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -2.286 6.35)
+      (xy -1.27 5.842)
+      (xy -1.778 5.334)
+      (xy -2.286 6.35)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 7.366)
+      (xy -0.254 6.858)
+      (xy -0.762 6.35)
+      (xy -1.27 7.366)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+      (pin input line
+        (at 3.81 -2.54 180)
+        (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -3.81 -2.54 0)
+        (length 2.54)
+        (name "C" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 3.81 2.54 180)
+        (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -3.81 2.54 0)
+        (length 2.54)
+        (name "C" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "AQW212EHA"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U?"
+      (id 0)
+      (at 0 15.24 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "AQW212EHA"
+      (id 1)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "SMD-8_L9.8-W6.4-P2.54-LS10.0-TR"
+      (id 2)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/SMD-Optocouplers_PANASONIC_AQW212EHA_AQW212EHA_C29278.html"
+      (id 3)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "PANASONIC"
+      (id 4)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C29278"
+      (id 5)
+      (at 0 -25.40 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -27.94 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "AQW212EHA_0_1"
+              (rectangle
+                (start -8.89 12.70)
+                (end 8.89 -12.45)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -6.858 5.08)
+      (xy -4.318 5.08)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -5.588 10.16)
+      (xy -5.588 2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -5.588 10.16)
+      (xy -8.889999999999999 10.16)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -5.588 2.54)
+      (xy -8.889999999999999 2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -4.064 6.858)
+      (xy -1.524 6.858)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.286 7.366)
+      (xy -1.524 6.858)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.286 6.35)
+      (xy -1.524 6.858)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -4.064 5.334)
+      (xy -1.524 5.334)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.286 5.842)
+      (xy -1.524 5.334)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.286 4.826)
+      (xy -1.524 5.334)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -6.858 -7.62)
+      (xy -4.318 -7.62)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -5.588 -2.54)
+      (xy -5.588 -10.16)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -5.588 -2.54)
+      (xy -8.889999999999999 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -5.588 -10.16)
+      (xy -8.889999999999999 -10.16)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -4.064 -5.842)
+      (xy -1.524 -5.842)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.286 -5.334)
+      (xy -1.524 -5.842)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.286 -6.35)
+      (xy -1.524 -5.842)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -4.064 -7.366)
+      (xy -1.524 -7.366)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.286 -6.858)
+      (xy -1.524 -7.366)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.286 -7.874)
+      (xy -1.524 -7.366)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 9.652)
+      (xy 6.096 9.652)
+      (xy 6.096 10.16)
+      (xy 7.366 10.16)
+      (xy 6.35 10.16)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 8.636)
+      (xy 6.096 8.636)
+      (xy 6.096 7.112)
+      (xy 6.096 7.112)
+      (xy 6.096 7.112)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 6.096 7.62)
+      (xy 3.556 7.62)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.048 9.905999999999999)
+      (xy 3.048 7.366)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 9.905999999999999)
+      (xy 3.556 9.398)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 8.382)
+      (xy 3.556 8.889999999999999)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 7.366)
+      (xy 3.556 7.874)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.016 8.636)
+      (xy 3.048 8.636)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.048)
+      (xy 6.096 3.048)
+      (xy 6.096 2.54)
+      (xy 7.366 2.54)
+      (xy 7.366 2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 4.064)
+      (xy 6.096 4.064)
+      (xy 6.096 5.588)
+      (xy 6.096 5.588)
+      (xy 6.096 5.588)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 6.096 5.08)
+      (xy 3.556 5.08)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.048 2.794)
+      (xy 3.048 5.334)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 2.794)
+      (xy 3.556 3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 4.318)
+      (xy 3.556 3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 5.334)
+      (xy 3.556 4.826)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.016 4.064)
+      (xy 3.048 4.064)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.016 8.636)
+      (xy 1.016 4.064)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 7.366 10.16)
+      (xy 8.889999999999999 10.16)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 7.366 2.54)
+      (xy 8.889999999999999 2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 6.096 7.112)
+      (xy 6.096 5.588)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 -3.048)
+      (xy 6.096 -3.048)
+      (xy 6.096 -2.54)
+      (xy 7.366 -2.54)
+      (xy 6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 -4.064)
+      (xy 6.096 -4.064)
+      (xy 6.096 -5.588)
+      (xy 6.096 -5.588)
+      (xy 6.096 -5.588)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 6.096 -5.08)
+      (xy 3.556 -5.08)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.048 -2.794)
+      (xy 3.048 -5.334)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 -2.794)
+      (xy 3.556 -3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 -4.318)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 -5.334)
+      (xy 3.556 -4.826)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.016 -4.064)
+      (xy 3.048 -4.064)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 -9.652)
+      (xy 6.096 -9.652)
+      (xy 6.096 -10.16)
+      (xy 7.366 -10.16)
+      (xy 7.366 -10.16)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 -8.636)
+      (xy 6.096 -8.636)
+      (xy 6.096 -7.112)
+      (xy 6.096 -7.112)
+      (xy 6.096 -7.112)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 6.096 -7.62)
+      (xy 3.556 -7.62)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.048 -9.905999999999999)
+      (xy 3.048 -7.366)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 -9.905999999999999)
+      (xy 3.556 -9.398)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 -8.382)
+      (xy 3.556 -8.889999999999999)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 -7.366)
+      (xy 3.556 -7.874)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.016 -8.636)
+      (xy 3.048 -8.636)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.016 -4.064)
+      (xy 1.016 -8.636)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 7.366 -2.54)
+      (xy 8.889999999999999 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 7.366 -10.16)
+      (xy 8.889999999999999 -10.16)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 6.096 -5.588)
+      (xy 6.096 -7.112)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -4.572 7.112)
+      (xy -5.588 5.08)
+      (xy -6.604 7.112)
+      (xy -4.572 7.112)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -4.572 -5.588)
+      (xy -5.588 -7.62)
+      (xy -6.604 -5.588)
+      (xy -4.572 -5.588)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 8.636)
+      (xy 5.08 8.128)
+      (xy 5.08 9.144)
+      (xy 3.556 8.636)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 4.064)
+      (xy 5.08 4.572)
+      (xy 5.08 3.556)
+      (xy 3.556 4.064)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 -4.064)
+      (xy 5.08 -4.572)
+      (xy 5.08 -3.556)
+      (xy 3.556 -4.064)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 -8.636)
+      (xy 5.08 -8.128)
+      (xy 5.08 -9.144)
+      (xy 3.556 -8.636)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+      (pin input line
+        (at -11.43 10.16 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -11.43 2.54 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -11.43 -2.54 0)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -11.43 -10.16 0)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 11.43 -10.16 180)
+        (length 2.54)
+        (name "5" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 11.43 -2.54 180)
+        (length 2.54)
+        (name "6" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 11.43 2.54 180)
+        (length 2.54)
+        (name "7" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 11.43 10.16 180)
+        (length 2.54)
+        (name "8" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "whiteLEDSMD"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED?"
+      (id 0)
+      (at 0 3.81 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "whiteLEDSMD"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "LED0805-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C34499"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Basic Part"
+      (id 6)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "whiteLEDSMD_0_1"
+              (polyline
+                (pts
+                      (xy 3.81 2.032)
+      (xy 2.794 1.524)
+      (xy 3.302 1.016)
+      (xy 3.81 2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 2.794 3.048)
+      (xy 1.778 2.54)
+      (xy 2.286 2.032)
+      (xy 2.794 3.048)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -2.794)
+      (xy 1.27 -1.27)
+      (xy -1.27 0.508)
+      (xy -1.27 -2.794)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 2.032 0.254)
+      (xy 3.81 2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.016 1.27)
+      (xy 2.794 3.048)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 0.762)
+      (xy 1.27 -3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at 3.81 -1.27 180)
+        (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "ACPL-M61L-500E"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U?"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "ACPL-M61L-500E"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "SO-6_5P-L3.7-W4.6-P1.27-LS7.0-BL-PE2"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/_Broadcom_ACPL-M61L-500E_Broadcom-Avago-ACPL-M61L-500E_C44908.html"
+      (id 3)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "Broadcom"
+      (id 4)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C44908"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "ACPL-M61L-500E_0_1"
+      (rectangle
+        (start -12.70 5.08)
+        (end 10.16 -5.08)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (pin unspecified line
+        (at 12.70 2.54 180)
+        (length 2.54)
+        (name "VCC" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 12.70 -0.00 180)
+        (length 2.54)
+        (name "VO" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 12.70 -2.54 180)
+        (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -15.24 -2.54 0)
+        (length 2.54)
+        (name "CATHODE" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -15.24 2.54 0)
+        (length 2.54)
+        (name "ANODE" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "PC923LENIPOF"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U?"
+      (id 0)
+      (at 0 8.89 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "PC923LENIPOF"
+      (id 1)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "SOP-8_L9.8-W6.6-P2.54-LS10.3-BL"
+      (id 2)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/SMD-Optocouplers_PC923LENIPOF_C47423.html"
+      (id 3)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "SHARP"
+      (id 4)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C47423"
+      (id 5)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -21.59 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "PC923LENIPOF_0_1"
+      (rectangle
+        (start -15.24 6.35)
+        (end 15.24 -6.35)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (pin unspecified line
+        (at -17.78 3.81 0)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -17.78 1.27 0)
+        (length 2.54)
+        (name "Anode" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -17.78 -1.27 0)
+        (length 2.54)
+        (name "Cathode" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -17.78 -3.81 0)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 17.78 -3.81 180)
+        (length 2.54)
+        (name "O1" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 17.78 -1.27 180)
+        (length 2.54)
+        (name "O2" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 17.78 1.27 180)
+        (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 17.78 3.81 180)
+        (length 2.54)
+        (name "VCC" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "KT-1206RedLED"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED?"
+      (id 0)
+      (at 0 3.81 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "KT-1206RedLED"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "LED1206-R-RD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_LEDBright-red-light-1206_C49018.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C49018"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "KT-1206RedLED_0_1"
+              (polyline
+                (pts
+                      (xy 3.81 2.032)
+      (xy 2.794 1.524)
+      (xy 3.302 1.016)
+      (xy 3.81 2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 2.794 3.048)
+      (xy 1.778 2.54)
+      (xy 2.286 2.032)
+      (xy 2.794 3.048)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -2.794)
+      (xy 1.27 -1.27)
+      (xy -1.27 0.508)
+      (xy -1.27 -2.794)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 2.032 0.254)
+      (xy 3.81 2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.016 1.27)
+      (xy 2.794 3.048)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 0.762)
+      (xy 1.27 -3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at 3.81 -1.27 180)
+        (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "5AG2HT01200-300"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED?"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "5AG2HT01200-300"
+      (id 1)
+      (at 0 -2.54 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "LED-TH_BD5.9-P2.54-RD_GREEN"
+      (id 2)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_f5Short-legs-Round-with-edge-Pu-bright-transparent-green-green-Bagged-RHOS_C54166.html"
+      (id 3)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C54166"
+      (id 5)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "5AG2HT01200-300_0_1"
+              (polyline
+                (pts
+                      (xy -0.508 0.508)
+      (xy -2.286 -1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 0.508 -0.508)
+      (xy -1.27 -2.286)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.016)
+      (xy -1.27 4.064)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 4.064)
+      (xy -1.27 2.54)
+      (xy 1.27 1.016)
+      (xy 1.27 4.064)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -2.286 -1.27)
+      (xy -1.27 -0.762)
+      (xy -1.778 -0.254)
+      (xy -2.286 -1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -2.286)
+      (xy -0.254 -1.778)
+      (xy -0.762 -1.27)
+      (xy -1.27 -2.286)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+      (pin input line
+        (at 3.81 2.54 180)
+        (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -3.81 2.54 0)
+        (length 2.54)
+        (name "C" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "JC817S(C)"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U?"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "JC817S(C)"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "OPTO-SMD-4_L4.6-W6.5-P2.54-LS10.3-BR"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/SMD-Optocouplers_JC817S-C_C55284.html"
+      (id 3)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C55284"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "JC817S(C)_0_1"
+              (rectangle
+                (start -6.35 4.32)
+                (end 6.35 -4.32)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 0.762 -2.032)
+      (xy 0.254 -1.016)
+      (xy -0.254 -1.524)
+      (xy 0.762 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 1.524 -1.016)
+      (xy 1.016 -0.0)
+      (xy 0.508 -0.508)
+      (xy 1.524 -1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -4.572 1.27)
+      (xy -3.048 -1.27)
+      (xy -1.27 1.27)
+      (xy -4.572 1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 2.54)
+      (xy 3.81 0.762)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.81 -0.762)
+      (xy 6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.81 2.286)
+      (xy 3.81 -2.286)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.016 -0.254)
+      (xy 0.762 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -0.254 0.762)
+      (xy 1.524 -1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.016 -1.27)
+      (xy -5.08 -1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -6.35 2.54)
+      (xy -3.048 2.54)
+      (xy -3.048 -2.54)
+      (xy -6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 -2.54)
+      (xy 5.588 -1.27)
+      (xy 4.826 -2.286)
+      (xy 6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+      (pin unspecified line
+        (at -8.89 2.54 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -8.89 -2.54 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 8.89 -2.54 180)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 8.89 2.54 180)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "JC817S(D)"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U?"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "JC817S(D)"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "OPTO-SMD-4_L4.6-W6.5-P2.54-LS10.3-BR"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/SMD-Optocouplers_JC817S-D_C55285.html"
+      (id 3)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C55285"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "JC817S(D)_0_1"
+              (rectangle
+                (start -6.35 4.32)
+                (end 6.35 -4.32)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 0.762 -2.032)
+      (xy 0.254 -1.016)
+      (xy -0.254 -1.524)
+      (xy 0.762 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 1.524 -1.016)
+      (xy 1.016 -0.0)
+      (xy 0.508 -0.508)
+      (xy 1.524 -1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -4.572 1.27)
+      (xy -3.048 -1.27)
+      (xy -1.27 1.27)
+      (xy -4.572 1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 2.54)
+      (xy 3.81 0.762)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.81 -0.762)
+      (xy 6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.81 2.286)
+      (xy 3.81 -2.286)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.016 -0.254)
+      (xy 0.762 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -0.254 0.762)
+      (xy 1.524 -1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.016 -1.27)
+      (xy -5.08 -1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -6.35 2.54)
+      (xy -3.048 2.54)
+      (xy -3.048 -2.54)
+      (xy -6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 -2.54)
+      (xy 5.588 -1.27)
+      (xy 4.826 -2.286)
+      (xy 6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+      (pin unspecified line
+        (at -8.89 2.54 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -8.89 -2.54 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 8.89 -2.54 180)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 8.89 2.54 180)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "JC357C"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U?"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "JC357C"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "SOP-4_L3.9-W4.4-P2.54-LS7.0-BR"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/SMD-Optocouplers_JC357C_C55288.html"
+      (id 3)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C55288"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "JC357C_0_1"
+              (rectangle
+                (start -6.35 4.32)
+                (end 6.35 -4.32)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 0.762 -2.032)
+      (xy 0.254 -1.016)
+      (xy -0.254 -1.524)
+      (xy 0.762 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 1.524 -1.016)
+      (xy 1.016 -0.0)
+      (xy 0.508 -0.508)
+      (xy 1.524 -1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -4.572 1.27)
+      (xy -3.048 -1.27)
+      (xy -1.27 1.27)
+      (xy -4.572 1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 2.54)
+      (xy 3.81 0.762)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.81 -0.762)
+      (xy 6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.81 2.286)
+      (xy 3.81 -2.286)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.016 -0.254)
+      (xy 0.762 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -0.254 0.762)
+      (xy 1.524 -1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.016 -1.27)
+      (xy -5.08 -1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -6.35 2.54)
+      (xy -3.048 2.54)
+      (xy -3.048 -2.54)
+      (xy -6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 -2.54)
+      (xy 5.588 -1.27)
+      (xy 4.826 -2.286)
+      (xy 6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+      (pin unspecified line
+        (at -8.89 2.54 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -8.89 -2.54 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 8.89 -2.54 180)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 8.89 2.54 180)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "JC817SB"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U?"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "JC817SB"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "OPTO-SMD-4_L4.6-W6.5-P2.54-LS10.3-BL"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/SMD-Optocouplers_JC817S-B_C55289.html"
+      (id 3)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C55289"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "JC817SB_0_1"
+              (rectangle
+                (start -6.35 4.32)
+                (end 6.35 -4.32)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 0.762 -2.032)
+      (xy 0.254 -1.016)
+      (xy -0.254 -1.524)
+      (xy 0.762 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 1.524 -1.016)
+      (xy 1.016 -0.0)
+      (xy 0.508 -0.508)
+      (xy 1.524 -1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -4.572 1.27)
+      (xy -3.048 -1.27)
+      (xy -1.27 1.27)
+      (xy -4.572 1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 2.54)
+      (xy 3.81 0.762)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.81 -0.762)
+      (xy 6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.81 2.286)
+      (xy 3.81 -2.286)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.016 -0.254)
+      (xy 0.762 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -0.254 0.762)
+      (xy 1.524 -1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.016 -1.27)
+      (xy -5.08 -1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -6.35 2.54)
+      (xy -3.048 2.54)
+      (xy -3.048 -2.54)
+      (xy -6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 6.35 -2.54)
+      (xy 5.588 -1.27)
+      (xy 4.826 -2.286)
+      (xy 6.35 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+      (pin unspecified line
+        (at -8.89 2.54 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -8.89 -2.54 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 8.89 -2.54 180)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 8.89 2.54 180)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "PS2801-1-F3-A_C69858"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U?"
+      (id 0)
+      (at 0 10.16 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "PS2801-1-F3-A_C69858"
+      (id 1)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "SOP-4_L4.4-W2.8-P1.27-LS7.0-BL"
+      (id 2)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/SMD-Optocouplers_PS2801-1-F3-A_C69858.html"
+      (id 3)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "CEL"
+      (id 4)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C69858"
+      (id 5)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "PS2801-1-F3-A_C69858_0_1"
+              (rectangle
+                (start -8.89 7.62)
+                (end 8.89 -7.62)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -8.889999999999999 5.08)
+      (xy -3.81 5.08)
+      (xy -3.81 -5.08)
+      (xy -8.889999999999999 -5.08)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -5.08 1.27)
+      (xy -2.54 1.27)
+      (xy -3.81 -1.27)
+      (xy -5.08 1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 2.54)
+      (xy 1.27 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 8.889999999999999 5.08)
+      (xy 4.572 5.08)
+      (xy 4.572 3.556)
+      (xy 1.27 1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.524)
+      (xy 4.572 -3.81)
+      (xy 4.318 -3.048)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 4.572 -3.81)
+      (xy 3.81 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 4.572 -3.81)
+      (xy 4.572 -5.08)
+      (xy 8.889999999999999 -5.08)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -5.08 -1.27)
+      (xy -2.54 -1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -11.43 5.08 0)
+        (length 2.54)
+        (name "AN" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -11.43 -5.08 0)
+        (length 2.54)
+        (name "CAT" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 11.43 -5.08 180)
+        (length 2.54)
+        (name "EM" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 11.43 5.08 180)
+        (length 2.54)
+        (name "COL" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "white12063V"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED?"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "white12063V"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "LED1206-R-RD_WHITE"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white1206-Non-warm-tones-of-white_C71796.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C71796"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "white12063V_0_1"
+              (polyline
+                (pts
+                      (xy -3.81 3.302)
+      (xy -2.794 2.794)
+      (xy -3.302 2.286)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.794 4.318)
+      (xy -1.778 3.81)
+      (xy -2.286 3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.524)
+      (xy -1.27 -0.0)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.032 1.524)
+      (xy -3.81 3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.016 2.54)
+      (xy -2.794 4.318)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 2.032)
+      (xy -1.27 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 -0.00 0)
+        (length 2.54)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 3.81 -0.00 180)
+        (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "1206B"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED?"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "1206B"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "LED1206-R-RD"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_SMDSMD-1206-blue_C72691.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "KENTO"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C72691"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "1206B_0_1"
+              (polyline
+                (pts
+                      (xy 1.27 1.524)
+      (xy -1.27 -0.0)
+      (xy 1.27 -1.778)
+      (xy 1.27 1.524)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -3.048 4.318)
+      (xy -2.54 3.302)
+      (xy -2.032 3.81)
+      (xy -3.048 4.318)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -4.064 3.302)
+      (xy -3.556 2.286)
+      (xy -3.048 2.794)
+      (xy -4.064 3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -2.032)
+      (xy -1.27 2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 2.54)
+      (xy -3.048 4.318)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.286 1.524)
+      (xy -4.064 3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 -0.00 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 3.81 -0.00 180)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "EL816S1(D)(TA)-F"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U?"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "EL816S1(D)(TA)-F"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "SOP-4_L6.5-W4.6-P2.54-LS10.2-BL"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/DIP-Optocouplers_Everlight-Elec-EL816S1-D-TA-F_C77797.html"
+      (id 3)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "Everlight Elec"
+      (id 4)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C77797"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "EL816S1(D)(TA)-F_0_1"
+              (rectangle
+                (start -7.62 4.32)
+                (end 5.08 -4.32)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -0.508 -2.032)
+      (xy -1.016 -1.016)
+      (xy -1.524 -1.524)
+      (xy -0.508 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 0.254 -1.016)
+      (xy -0.254 -0.0)
+      (xy -0.762 -0.508)
+      (xy 0.254 -1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -5.842 1.27)
+      (xy -4.318 -1.27)
+      (xy -2.54 1.27)
+      (xy -5.842 1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 5.08 2.54)
+      (xy 2.54 0.762)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 2.54 -0.762)
+      (xy 5.08 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 2.54 2.286)
+      (xy 2.54 -2.286)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.286 -0.254)
+      (xy -0.508 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.524 0.762)
+      (xy 0.254 -1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.286 -1.27)
+      (xy -6.35 -1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -7.62 2.54)
+      (xy -4.318 2.54)
+      (xy -4.318 -2.54)
+      (xy -7.62 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 5.08 -2.54)
+      (xy 4.318 -1.27)
+      (xy 3.556 -2.286)
+      (xy 5.08 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+      (pin unspecified line
+        (at -10.16 2.54 0)
+        (length 2.54)
+        (name "AN" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -10.16 -2.54 0)
+        (length 2.54)
+        (name "CAT" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 -2.54 180)
+        (length 2.54)
+        (name "EM" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 2.54 180)
+        (length 2.54)
+        (name "COL" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "FM-3528BK-470M"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED?"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "FM-3528BK-470M"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "LED-SMD_L3.5-W2.8-R-RD"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/_blue-SMDLED-500-625mcd_C85319.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "NATIONSTAR"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C85319"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "FM-3528BK-470M_0_1"
+              (polyline
+                (pts
+                      (xy -3.81 3.302)
+      (xy -2.794 2.794)
+      (xy -3.302 2.286)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.794 4.318)
+      (xy -1.778 3.81)
+      (xy -2.286 3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.524)
+      (xy -1.27 -0.0)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.032 1.524)
+      (xy -3.81 3.302)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.016 2.54)
+      (xy -2.794 4.318)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 2.032)
+      (xy -1.27 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 -0.00 0)
+        (length 2.54)
+        (name "-" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 3.81 -0.00 180)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "PS2805-4-A"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U?"
+      (id 0)
+      (at 0 12.70 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "PS2805-4-A"
+      (id 1)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL"
+      (id 2)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Others_California-Eastern-Laboratories-PS2805-4-A_C88223.html"
+      (id 3)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "California Eastern Laboratories"
+      (id 4)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C88223"
+      (id 5)
+      (at 0 -25.40 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -27.94 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "PS2805-4-A_0_1"
+      (rectangle
+        (start -10.16 10.16)
+        (end 12.70 -12.70)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (pin unspecified line
+        (at -12.70 7.62 0)
+        (length 2.54)
+        (name "AC1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -12.70 5.08 0)
+        (length 2.54)
+        (name "CA1" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -12.70 2.54 0)
+        (length 2.54)
+        (name "AC2" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -12.70 -0.00 0)
+        (length 2.54)
+        (name "CA2" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -12.70 -2.54 0)
+        (length 2.54)
+        (name "AC3" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -12.70 -5.08 0)
+        (length 2.54)
+        (name "CA3" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -12.70 -7.62 0)
+        (length 2.54)
+        (name "AC4" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -12.70 -10.16 0)
+        (length 2.54)
+        (name "CA4" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 15.24 -10.16 180)
+        (length 2.54)
+        (name "Emitter4" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 15.24 -7.62 180)
+        (length 2.54)
+        (name "Collector4" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 15.24 -5.08 180)
+        (length 2.54)
+        (name "Emitter3" (effects (font (size 1.27 1.27))))
+        (number "11" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 15.24 -2.54 180)
+        (length 2.54)
+        (name "Collector3" (effects (font (size 1.27 1.27))))
+        (number "12" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 15.24 -0.00 180)
+        (length 2.54)
+        (name "Emitter2" (effects (font (size 1.27 1.27))))
+        (number "13" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 15.24 2.54 180)
+        (length 2.54)
+        (name "Collector2" (effects (font (size 1.27 1.27))))
+        (number "14" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 15.24 5.08 180)
+        (length 2.54)
+        (name "Emitter1" (effects (font (size 1.27 1.27))))
+        (number "15" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 15.24 7.62 180)
+        (length 2.54)
+        (name "Collector1" (effects (font (size 1.27 1.27))))
+        (number "16" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "RPI-579N1"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U?"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "RPI-579N1"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "OPTO-TH_4P_RPI-579N1"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Others_ROHM-Semicon_RPI-579N1_ROHM-Semicon-RPI-579N1_C88269.html"
+      (id 3)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ROHM Semicon"
+      (id 4)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C88269"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "RPI-579N1_0_1"
+              (rectangle
+                (start -7.62 4.06)
+                (end 0.76 -4.32)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (rectangle
+                (start 1.78 4.06)
+                (end 7.62 -4.32)
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -0.508 -2.032)
+      (xy -1.016 -1.016)
+      (xy -1.524 -1.524)
+      (xy -0.508 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 0.254 -1.016)
+      (xy -0.254 -0.0)
+      (xy -0.762 -0.508)
+      (xy 0.254 -1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy -5.842 1.27)
+      (xy -4.318 -1.27)
+      (xy -2.54 1.27)
+      (xy -5.842 1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 7.62 2.54)
+      (xy 5.08 0.762)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 5.08 -0.762)
+      (xy 7.62 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 5.08 2.286)
+      (xy 5.08 -2.286)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.286 -0.254)
+      (xy -0.508 -2.032)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.524 0.762)
+      (xy 0.254 -1.016)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -2.286 -1.27)
+      (xy -6.35 -1.27)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -7.62 2.54)
+      (xy -4.318 2.54)
+      (xy -4.318 -2.54)
+      (xy -7.62 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 7.62 -2.54)
+      (xy 6.858 -1.27)
+      (xy 6.096 -2.286)
+      (xy 7.62 -2.54)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+      (pin unspecified line
+        (at -10.16 2.54 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -10.16 -2.54 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 10.16 -2.54 180)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 10.16 2.54 180)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)

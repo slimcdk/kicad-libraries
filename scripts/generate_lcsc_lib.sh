@@ -39,6 +39,3 @@ do
 done < <(tail -n +2 $PARTS_LIST)
 
 wait
-cleanup()
-
-exit 0

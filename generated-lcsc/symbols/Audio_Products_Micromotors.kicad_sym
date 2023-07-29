@@ -1,0 +1,4297 @@
+(kicad_symbol_lib
+  (version 20211014)
+  (generator https://github.com/uPesy/easyeda2kicad.py
+  (symbol "SEA-12085-16_C2858"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SEA-12085-16_C2858"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD12.0-P6.50-D0.6-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_12-8-5-Passive-Electromagnetic-buzzer_C2858.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2858"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SEA-12085-16_C2858_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SEA-12095-16"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SEA-12095-16"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD12.0-P6.50-D0.6-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_12-9-5-Passive-Electromagnetic-buzzer_C2859.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2859"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SEA-12095-16_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SUN-09055-5"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SUN-09055-5"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD9.0-P5.00-D0.6-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_Made-in-China-SUN-09055-5_C2861.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2861"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SUN-09055-5_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SUN-09505-5"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SUN-09505-5"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD9.6-P5.00-D0.7-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_Made-in-China-SUN-09505-5_C2862.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2862"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SUN-09505-5_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SUN-12075-5"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SUN-12075-5"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD12.0-P7.60-D0.6-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_Made-in-China-SUN-12075-5_C2864.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2864"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SUN-12075-5_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SUN-12095-5"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SUN-12095-5"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD12.0-P6.50-D0.6-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_Made-in-China-SUN-12095-5_C2865.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2865"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SUN-12095-5_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SUN-12095-3"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SUN-12095-3"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD12.0-P7.60-D0.6-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_Made-in-China-SUN-12095-3_C2868.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2868"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SUN-12095-3_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SUN-12095-12"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SUN-12095-12"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD12.0-P7.60-D0.6-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_Made-in-China-SUN-12095-12_C2869.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2869"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SUN-12095-12_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "YMD12095LTYPE"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZZER?"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "YMD12095LTYPE"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD12.0-P7.60-D0.6-FD"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_12-9-5-Active-Wire-Electromagnetic-buzzer_C2870.html"
+      (id 3)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2870"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "YMD12095LTYPE_0_1"
+              (polyline
+                (pts
+                      (xy 0.0 1.778)
+      (xy 0.0 -3.302)
+      (xy 2.54 -3.302)
+      (xy 5.08 -5.842)
+      (xy 5.08 5.842)
+      (xy 2.54 3.302)
+      (xy 0.0 3.302)
+      (xy 0.0 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 0.762 2.286)
+      (xy 1.778 2.286)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 2.794)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -2.54 2.54 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -2.54 -2.54 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SFN-1407-(3-24)"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SFN-1407-(3-24)"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD14.0-P7.60-D0.7-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_14-7-Passive-Piezo-buzzer_C2871.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2871"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SFN-1407-(3-24)_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SFN-1707-(3-24)"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SFN-1707-(3-24)"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD17.0-P10.00-D0.8-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_17-7-Passive-Piezo-buzzer_C2872.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2872"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SFN-1707-(3-24)_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "YD1407type"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "YD1407type"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD14.0-P7.60-D0.7-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_14-7-5-Active12V-Piezo-buzzer_C2873.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2873"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "YD1407type_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "YD2312TYPE"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZZER?"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "YD2312TYPE"
+      (id 1)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD23.5-P15.00-D0.8-FD"
+      (id 2)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_23-12-Active-Wire-Piezo-buzzer-Continuous-sound_C2875.html"
+      (id 3)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2875"
+      (id 5)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "YD2312TYPE_0_1"
+              (polyline
+                (pts
+                      (xy 0.0 1.778)
+      (xy 0.0 -3.302)
+      (xy 2.54 -3.302)
+      (xy 5.08 -5.842)
+      (xy 5.08 5.842)
+      (xy 2.54 3.302)
+      (xy 0.0 3.302)
+      (xy 0.0 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+              (polyline
+                (pts
+                      (xy 0.762 2.286)
+      (xy 1.778 2.286)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 2.794)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -2.54 2.54 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -2.54 -2.54 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "YXYD2310"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "YXYD2310"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD23.0-P15.00-D0.8-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_12V-Active-Piezo-buzzer_C2877.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2877"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "YXYD2310_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "YD2319type"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "YD2319type"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD23.0-P15.00-D0.8-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_23-19-Active-Piezo-buzzer_C2878.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2878"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "YD2319type_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "YD4218type"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "B?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "YD4218type"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-SMD_YD4218"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_42-18-Active-Wire-Piezo-buzzer-Alarm-sound_C2883.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2883"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "YD4218type_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SUN-09505-3"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SUN-09505-3"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD9.6-P5.00-D0.7-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_Made-in-China-SUN-09505-3_C14358.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C14358"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SUN-09505-3_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SUN-09055-12"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SUN-09055-12"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD9.0-P5.00-D0.6-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_Made-in-China-SUN-09055-12_C18963.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C18963"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SUN-09055-12_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SEA-0905-16"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SEA-0905-16"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD9.0-P5.00-D0.6-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_9-5-Passive-Electromagnetic-buzzer_C35244.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C35244"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SEA-0905-16_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SEA-0905A-16"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SEA-0905A-16"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD9.6-P5.00-D0.7-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_9-6-5-Passive-Electromagnetic-buzzer_C41110.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C41110"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SEA-0905A-16_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SUN-09055-3"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SUN-09055-3"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD9.0-P5.00-D0.6-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_Made-in-China-SUN-09055-3_C47620.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C47620"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SUN-09055-3_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "HNT-1203B"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "HNT-1203B"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD12.0-P7.60-D0.6-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_Made-in-China-HNT-1203B_C49617.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C49617"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "HNT-1203B_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "KC-1201type"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "KC-1201type"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD12.0-P6.50-D0.6-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_12-9-5-Passive-Electromagnetic-buzzer-1-5V-5V-4KHZ_C64776.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C64776"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "KC-1201type_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "KC-1206type"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "KC-1206type"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD12.0-P6.50-D0.6-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_12-9-5-Passive-Electromagnetic-buzzer_C64777.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C64777"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "KC-1206type_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SEA-12085-16"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SEA-12085-16"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD12.0-P6.50-D0.6-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_12-8-5-Passive-Electromagnetic-buzzer_C67343.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C67343"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SEA-12085-16_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SAT-1203-16"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZZER?"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SAT-1203-16"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "SAT-1203-16"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_SMD-passive-buzzer12-12-3-voltage5V-frequency4K_C71548.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C71548"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SAT-1203-16_0_1"
+      (rectangle
+        (start -5.08 5.08)
+        (end 5.08 -5.08)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (pin unspecified line
+        (at -7.62 -0.00 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 -0.00 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "STW-9745-Z"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "MIC?"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "STW-9745-Z"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "MIC-TH_STW-9745-Z"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Electret-Condenser-Microphone_9-7-4-5-With-a-microphone-head_C71565.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C71565"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "STW-9745-Z_0_1"
+      (pin unspecified line
+        (at -4.57 -0.00 0)
+        (length 2.54)
+        (name "D" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 4.57 -0.00 180)
+        (length 2.54)
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "STW-9767-Z"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U?"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "STW-9767-Z"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "MIC-TH_BD9.7-P2.54-D0.8-L-FD"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Electret-Condenser-Microphone_9-7-6-7-With-a-microphone-head_C71566.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C71566"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "STW-9767-Z_0_1"
+      (pin unspecified line
+        (at -4.57 -0.00 0)
+        (length 2.54)
+        (name "D" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 4.57 -0.00 180)
+        (length 2.54)
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "STW-9767-T"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U?"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "STW-9767-T"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "MIC-TH_BD9.7-P2.54-D0.8-L-FD"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Electret-Condenser-Microphone_9-7-6-7-Electret-Condenser-Microphone_C71568.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C71568"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "STW-9767-T_0_1"
+      (pin unspecified line
+        (at -4.57 -0.00 0)
+        (length 2.54)
+        (name "D" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 4.57 -0.00 180)
+        (length 2.54)
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "STW-6027-T"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "MIC?"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "STW-6027-T"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "MIC-SMD_BD6.0-P2.00"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Electret-Condenser-Microphone_6-2-7-Electret-Condenser-Microphone_C71569.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C71569"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "STW-6027-T_0_1"
+      (pin unspecified line
+        (at -4.57 -0.00 0)
+        (length 2.54)
+        (name "D" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 4.57 -0.00 180)
+        (length 2.54)
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "STW-6050-T"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "MIC?"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "STW-6050-T"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "MIC-SMD_STW-6050-T"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Electret-Condenser-Microphone_6-5-Electret-Condenser-Microphone_C71570.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C71570"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "STW-6050-T_0_1"
+      (pin unspecified line
+        (at -4.57 -0.00 0)
+        (length 2.54)
+        (name "D" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 4.57 -0.00 180)
+        (length 2.54)
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "STW-6027-Z"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "MIC?"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "STW-6027-Z"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "MIC-TH_STW-6027-Z"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Electret-Condenser-Microphone_6-0-2-7With-a-microphone-head_C71571.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C71571"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "STW-6027-Z_0_1"
+      (pin unspecified line
+        (at -4.57 -0.00 0)
+        (length 2.54)
+        (name "D" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 4.57 -0.00 180)
+        (length 2.54)
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SEA-1614-110"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZZER?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SEA-1614-110"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD16.0-P7.60-D1.2"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_Passive-electromagnetic-buzzer110-4000HZ-16-14mm_C71572.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C71572"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SEA-1614-110_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SEA-12075C-42"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZZER?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SEA-12075C-42"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD12.6-P7.50-D0.9"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_Passive-electromagnetic-buzzer42-2731HZ-12-7-5_C71573.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C71573"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SEA-12075C-42_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SEA-12065C-42"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZ?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SEA-12065C-42"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_SEA-12065C-42"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_Passive-electromagnetic-buzzer42-2731HZ-12-6-5_C71574.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C71574"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SEA-12065C-42_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SEA-12055-16"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZZER?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SEA-12055-16"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD12.0-P7.60-D0.6-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_Passive-electromagnetic-buzzer16-2731HZ-12-5-5_C71575.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C71575"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SEA-12055-16_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SUN-12085D-5"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZZER?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SUN-12085D-5"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD12.0-P7.60-D0.6-FD"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_5V-20-12-8-5_C71576.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "ReliaPro"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C71576"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SUN-12085D-5_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SPU0410HR5H-PB"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "MIC?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SPU0410HR5H-PB"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "MIC-SMD_SPU0410HR5H-PB"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/_Knowles_SPU0410HR5H-PB_SPU0410HR5H-PB_C73122.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "Knowles"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C73122"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SPU0410HR5H-PB_0_1"
+      (rectangle
+        (start -10.16 4.32)
+        (end 10.16 -4.32)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (pin unspecified line
+        (at -12.70 1.27 0)
+        (length 2.54)
+        (name "VDD" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -12.70 -1.27 0)
+        (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 12.70 -1.27 180)
+        (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 12.70 1.27 180)
+        (length 2.54)
+        (name "OUTPUT" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "PS1240P02BT"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZZER?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "PS1240P02BT"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD12.5-P5.00-D0.9"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_TDK_PS1240P02BT_Piezo-buzzer3V-4KHz-12-2-6-5_C76871.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "TDK"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C76871"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "PS1240P02BT_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "PS1740P02E"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZZER?"
+      (id 0)
+      (at 0 7.62 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "PS1740P02E"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD17.0-P10.00-D0.8"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_TDK_PS1740P02E_Piezo-buzzer3V-4KHz-17-7-5_C76872.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "TDK"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C76872"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "PS1740P02E_0_1"
+              (polyline
+                (pts
+                      (xy -4.064 4.064)
+      (xy 0.0 4.064)
+      (xy 0.0 -1.524)
+      (xy -4.064 -1.524)
+      (xy -7.62 -5.08)
+      (xy -7.62 7.62)
+      (xy -4.064 4.064)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type background))
+              )
+      (pin unspecified line
+        (at 2.54 -0.00 180)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 2.54 2.54 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "PS1240P02CT3"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "BUZZER?"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "PS1240P02CT3"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "BUZ-TH_BD12.5-P5.00-D0.9"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Buzzers_TDK_PS1240P02CT3_Piezo-buzzer3V-4KHz-12-2-3-5_C76873.html"
+      (id 3)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "TDK"
+      (id 4)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C76873"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "JLC Part"
+      "Extended Part"
+      (id 6)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "PS1240P02CT3_0_1"
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 -1.778)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 3.556 3.81)
+      (xy 3.556 -3.81)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy 1.27 1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy -1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 -1.778)
+      (xy 1.27 -1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+              (polyline
+                (pts
+                      (xy -1.27 1.778)
+      (xy 1.27 1.778)
+                )
+                (stroke (width 0) (type default) (color 0 0 0 0))
+                (fill (type none))
+              )
+      (pin unspecified line
+        (at -3.81 1.27 0)
+        (length 2.54)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -3.81 -1.27 0)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)
