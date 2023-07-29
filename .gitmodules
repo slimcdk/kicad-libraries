@@ -10,3 +10,6 @@
 [submodule "external/kicad-libraries"]
 	path = espressif-kicad-libraries
 	url = git@github.com:espressif/kicad-libraries.git
+[submodule "SparkFun-KiCad-Libraries"]
+	path = SparkFun-KiCad-Libraries
+	url = https://github.com/sparkfun/SparkFun-KiCad-Libraries
