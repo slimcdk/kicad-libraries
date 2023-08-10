@@ -15,7 +15,7 @@ $ git submodule update --init --recursive
 To include 3d models, configure the following environment variables in your project. `library` is the absolutte path to where this repository lives on your system.
 ```
 SLIMC_3DMODELS=<library>/slimc/3d-packages
-ESPRESSIF_3DMODELS=<library>/espressif-kicad-libraries/3d
+ESPRESSIF_3DMODELS=<library>/espressif-kicad-libraries/3dmodels/espressif.3dshapes
 ```
 
 I'm actively searching for a dynamic way to point to these directories.
