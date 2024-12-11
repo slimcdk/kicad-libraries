@@ -15,4 +15,4 @@
 	url = https://github.com/sparkfun/SparkFun-KiCad-Libraries
 [submodule "smisioto"]
 	path = smisioto
-	url = git://smisioto.eu/kicad_libs.git
+	url = git@github.com:slimcdk/smisioto_kicad_libs.git
